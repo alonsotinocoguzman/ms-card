@@ -1,0 +1,9 @@
+server:
+  port: 8091
+
+http-client:
+  ms-card:
+    base-url: http://localhost:8090/
+    connect-timeout: 10
+    read-timeout: 10
+    logging-level: BODY
